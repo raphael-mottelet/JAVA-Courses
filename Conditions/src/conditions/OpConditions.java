@@ -33,5 +33,34 @@ public class OpConditions {
 			}
 		}
 	}
+	
+	public int Operations(int a, int b, int x) {
+		int y;
+		
+		switch(x) {
+			case 1:{
+				y = (a+b);
+				break;
+			}
+			case 2:{
+				y = (a*b);
+				break;
+			}
+			case 3:{
+				y = (a/b);
+				break;
+			}
+			case 4:{
+				y = (a-b);
+				break;
+			}
+			//il faut un cas default pour tout les autres cas. Le "default" case est nécessaire.
+			default :{ 
+				y = (a*a + b*b);
+				break;
+			}
+		}
+		return y;
+	}
 
 }
