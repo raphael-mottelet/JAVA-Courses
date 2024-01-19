@@ -7,6 +7,8 @@ public class Principal {
 		
 		OpConditions x = new OpConditions();
 		x.Jour(5);
+		x.Jour(3);
+		x.Jour(4);
 
 	}
 
