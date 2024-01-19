@@ -4,5 +4,5 @@
 /**
  * 
  */
-module TestJava {
+module Conditions {
 }
