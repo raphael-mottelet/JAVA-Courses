@@ -1,3 +1,5 @@
+package tableaux;
+
 public class Principale{
 	public static void main(String[] args) {
 		int [] T;
