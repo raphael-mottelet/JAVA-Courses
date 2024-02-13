@@ -1,0 +1,19 @@
+Exercice 2 : Somme et produit du contenu d’un tableau (5 pt)
+
+1- Proposez une classe Java nommée SommeProduit ayant un tableau d’entiers nommé 𝐿𝑖𝑠𝑡𝑒
+comme unique attribut privé. Le constructeur de cette classe doit initialiser dans cet ordre le
+contenu de 𝐿𝑖𝑠𝑡𝑒 avec les valeurs suivantes : 17 , 89, 6, 8, 1, 45, 4, 2, 3. (1 pt)
+
+2- Proposez une méthode publique nommée Affiche pour la classe SommeProduit qui affiche les
+éléments de 𝐿𝑖𝑠𝑡𝑒 en les séparant par une tabulation. (1 pt)
+
+3- Proposez une méthode publique nommée SommeImpairs pour la classe SommeProduit qui
+calcule et retourne la somme des éléments impairs de 𝐿𝑖𝑠𝑡𝑒. (1 pt)
+
+4- Proposez une méthode publique nommée ProduitPairs pour la classe SommeProduit qui calcule
+et retourne le produit des éléments pairs de 𝐿𝑖𝑠𝑡𝑒. (1 pt)
+
+5- Proposez une classe Java nommée TestSommeProduit contenant comme unique méthode
+publique la fonction « main » dans laquelle vous allez créer une instance de la classe
+SommeProduit, puis afficher cette matrice, et enfin afficher la somme des éléments impairs de
+𝐿𝑖𝑠𝑡𝑒 ainsi que le produit des éléments pairs de 𝐿𝑖𝑠𝑡𝑒 en utilisant des messages adéquats. (1 pt)

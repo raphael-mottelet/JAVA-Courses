@@ -1,0 +1,35 @@
+Exercice 1 : 
+
+Affichage d’une matrice et de sa transposée (4 pt)
+Soit 𝑇 une matrice à 𝑚 lignes et à 𝑛 colonnes. La transposée de 𝑇 est par définition la matrice à 𝑛
+lignes et à 𝑚 colonnes telle que la ligne numéro 𝑘 de 𝑇 devient la colonne numéro 𝑘 de sa transposée,
+avec (1 ≤ 𝑘 ≤ 𝑚). Par exemple, la matrice 𝑇 ci-dessous à gauche, a pour transposée la matrice
+représentée à droite.
+
+
+ 𝑇: [1, 5, -3, 4,
+	2, 14, 0, -7,
+	8, 11, 20, 3]
+	 
+ 
+ Transposée de 𝑇 :  [1, 2, 8,
+					 5, 14, 11,
+					 -3, 0, 20,
+					 4, -7, 3]
+ 
+ 
+1- Proposez une classe Java nommée Matrice ayant une matrice d’entiers nommé 𝑇 comme unique
+attribut privé. Le constructeur de cette classe doit initialiser le contenu de 𝑇 comme dans
+l’exemple ci-dessus (à gauche). (1 pt)
+
+
+2- Proposez une méthode publique nommée Affiche pour la classe Matrice qui affiche les éléments
+de 𝑇 ligne par ligne en séparant les éléments dans chaque ligne par une tabulation. (1 pt)
+
+3- Proposez une méthode publique nommée AfficheTransposee pour la classe Matrice qui affiche
+les éléments de de la transposée de 𝑇 ligne par ligne en séparant les éléments dans chaque ligne
+par une tabulation. (1 pt)
+
+4- Proposez une classe Java nommée TestMatrice contenant comme unique méthode publique la
+fonction « main » dans laquelle vous allez créer une instance de la classe Matrice, puis afficher
+cette matrice, et enfin afficher sa transposée. 

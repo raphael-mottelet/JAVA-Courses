@@ -1,0 +1,51 @@
+Problème : Manipulation des fractions (11 pt)
+
+Une fraction est le rapport 𝑎/𝑏 où 𝑎 est un nombre réel appelé numérateur et 𝑏 est un nombre réel non nul appelé dénominateur. 
+L’inverse de la fraction 𝑎/𝑏. est la fraction 𝑏/𝑎. L’opposée de la fraction 𝑎/𝑏 est la fraction −𝑎/𝑏. 
+La valeur de la fraction 𝑎/𝑏 est le résultat de la division de 𝑎 par 𝑏. Par exemple, la fraction 3.0/4.0 a pour numérateur 3.0 et pour dénominateur 4.0. 
+Son inverse est 4.0/3.0, son opposé est −3.0/4.0 et sa valeur est 0.75.
+
+
+1- Proposez une classe Java nommée Fractions ayant deux nombres réels 𝑎 et 𝑏 comme attributs
+protégés représentant respectivement le numérateur et le dénominateur de la fraction. Le
+constructeur de cette classe prend en paramètres deux nombres réels 𝑥 et 𝑦 puis fixe 𝑥 comme
+numérateur et 𝑦 comme dénominateur dans le cas où 𝑦 est non nul, sinon le dénominateur est
+fixé à 1.0 . (1 pt)
+
+2- Proposez une méthode publique nommée Affiche pour la classe Fractions qui affiche la fraction
+conformément au format « 𝑎 / 𝑏 = valeur ». Par exemple, le message suivant est utilisé pour
+afficher la fraction 3.0
+4.0
+: « 3.0 / 4.0 = 0.75 ». (1 pt)
+
+3- Proposez deux méthodes publiques nommées DonneNum et DonneDeno pour la classe
+Fractions qui retournent respectivement le numérateur et le dénominateur de la fraction. (1 pt)
+
+4- Proposez deux méthodes publiques nommées ChangeNum et ChangeDeno pour la classe
+Fractions qui prennent chacune un réel 𝑧 en paramètre, puis remplacent respectivement le
+numérateur et le dénominateur de la fraction par 𝑧. Lorsque 𝑧 est nul, le dénominateur de la
+fraction n’est pas modifié. (1 pt)
+
+5- Proposez une méthode publique nommée Inverse pour la classe Fractions qui remplace la
+fraction par son inverse lorsque son numérateur est non nul. Dans le cas contraire, la fraction
+reste inchangée. (1 pt)
+
+6- Proposez une classe Java nommée FractionsOp qui hérite de la classe Fractions. Le
+constructeur de cette classe est similaire à celui de sa classe mère. (1 pt)
+
+7- Proposez une méthode publique nommée Oppose pour la classe FractionsOp qui remplace la
+fraction par son opposée. (1 pt)
+
+8- Proposez une classe Java nommée TestFractions contenant comme unique méthode publique la
+fonction « main » dans laquelle vous allez réaliser dans cette ordre les actions suivantes :
+
+	a- Lire au clavier deux nombres réels 𝑥 et 𝑦, les exceptions éventuelles sont directement traitées
+		par l’environnement. Créer ensuite une variable f de la classe Fractions en lui attribuant 𝑥
+		comme numérateur et 𝑦 comme dénominateur. (1 pt)
+	b- Créer une variable f de la classe Fractions en lui attribuant 𝑥 comme numérateur et 𝑦 comme
+		dénominateur. Afficher la fraction 𝑓, puis remplacer 𝑓 par son inverse et l’afficher à
+		nouveau. (1 pt)
+	c- Ajouter 1.5 au numérateur et 3.5 au dénominateur de 𝑓, puis afficher à nouveau 𝑓. (1 pt)
+	d- Créer une variable g de la classe FractionsOp en lui attribuant 2.4 comme numérateur et 7.3
+		comme dénominateur. Afficher la fraction 𝑔, puis remplacer 𝑔 par son opposée et l’afficher à
+		nouveau. 
