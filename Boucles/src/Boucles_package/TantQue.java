@@ -10,10 +10,13 @@ public class TantQue {
 			s = s+i;
 			i = i+1;
 		}
+		return s;
 		
 	}public int Facto(int n) {
+		return n;
 		
 	}public double Puissance (double x, int n) {
+		return n;
 		
 	}
 }
