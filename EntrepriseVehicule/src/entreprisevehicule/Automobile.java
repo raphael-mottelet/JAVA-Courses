@@ -1,4 +1,4 @@
-package entreprisevehiculehybride;
+package entreprisevehicule;
 
 public abstract class Automobile {
 	protected String Modele;

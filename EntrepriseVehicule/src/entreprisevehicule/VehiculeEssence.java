@@ -1,4 +1,4 @@
-package entreprisevehiculehybride;
+package entreprisevehicule;
 
 public class VehiculeEssence implements Vehicule {
 	public Automobile CreerAutomobile (String Modele, String Couleur, int Puissance, double Masse) {
