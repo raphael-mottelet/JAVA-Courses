@@ -3,6 +3,7 @@ package catalogue;
 public class JetskiHybride {
 	private static final String Couleur = null;
 	private static final String Modele = null;
+	private static final String Puissance = null;
 	public void JetSkiHybride(String Modele, String Couleur, int Puissance, double Masse) {
 		super(Modele, Couleur, Puissance,Masse);
 	}

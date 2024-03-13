@@ -2,7 +2,7 @@ package catalogue;
 
 import java.util.Scanner;
 
-public class Catalogue {
+public class Catalogue<LesJetSkis, LesJetSkis> {
 
 	private int NbAutomobiles = 5;
 	private int NbScooters = 5;
@@ -16,13 +16,13 @@ public class Catalogue {
 	public void RemplissageCatalogue() {
 		Vehicule FabriqueVehiculeEssence = new VehiculeEssence();
 		Vehicule FabriqueVehiculeElectrique = new VehiculeElectrique();
-		Vehicule FabriqueVehiculeHybride = new VehiculeHybride();
+		Vehicule FabriqueVehiculeHybride = (Vehicule) new VehiculeHybride();
 		
-		LesAutomobiles[0] = FabriqueVehiculeEssence.CreerAutomobile("van","jaune",600,3200.0,1200);
-		LesAutomobiles[1] = FabriqueVehiculeElectrique.CreerAutomobile("suv","rouge",140,1600.0,1500);
-		LesAutomobiles[2] = FabriqueVehiculeElectrique.CreerAutomobile("coupe","rouge",300,1000.0,3000);
-		LesAutomobiles[3] = FabriqueVehiculeEssence.CreerAutomobile("suv","noir",200,1200.0,4500);
-		LesAutomobiles[4] = FabriqueVehiculeHybride.CreerAutomobile("coupe","vert",500,2500.0,2800);
+		LesAutomobiles[0] = FabriqueVehiculeEssence.CreerAutomobile("van","jaune",600,3200.0);
+		LesAutomobiles[1] = FabriqueVehiculeElectrique.CreerAutomobile("suv","rouge",140,1600.0);
+		LesAutomobiles[2] = FabriqueVehiculeElectrique.CreerAutomobile("coupe","rouge",300,1000.0);
+		LesAutomobiles[3] = FabriqueVehiculeEssence.CreerAutomobile("suv","noir",200,1200.0);
+		LesAutomobiles[4] = FabriqueVehiculeHybride.CreerAutomobile("coupe","vert",500,2500.0);
 		
 		LesScooters[0] = FabriqueVehiculeElectrique.CreerScooter("2 roues","noir",20,800);
 		LesScooters[1] = FabriqueVehiculeElectrique.CreerScooter("3 roues","jaune",30,550);

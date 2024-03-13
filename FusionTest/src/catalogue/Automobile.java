@@ -21,6 +21,6 @@ public abstract class Automobile {
 			this.Masse = Masse;
 		}
 	}
-	public abstract void AfficheVehicule();
+	public abstract String AfficheVehicule();
 
 }
